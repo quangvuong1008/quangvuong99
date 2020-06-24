@@ -17,7 +17,6 @@ import { TextInput } from 'react-native-gesture-handler';
 import Icon from 'react-native-vector-icons/FontAwesome'
 import { getRentData } from '../../actions/sellScreenAction'
 import { connect } from 'react-redux'
-import BottomView from '../bottomView'
 import RNPickerSelect from 'react-native-picker-select'
 let width = Dimensions.get('window').width;
 let height = Dimensions.get('window').height;
